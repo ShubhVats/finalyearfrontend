@@ -16,6 +16,8 @@ function App() {
   return (
     <Router>
       <div className="App">
+        {console.log(window.location.hostname)}
+        {console.log(window.location.href)}
         <Route path="/Data" component={Data} />
         <Route path="/" exact component={Blog} />
         <Route path="/SignUp" component={SignUp} />
