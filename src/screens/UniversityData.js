@@ -73,7 +73,7 @@ export default function Data() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/Datas/")
+      .get("https://careerheadstart.herokuapp.com/Datas/")
       .then((res) => {
         console.log(res.data);
         setCollegeData(res.data);

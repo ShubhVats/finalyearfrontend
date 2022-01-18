@@ -21,7 +21,6 @@ import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
-  UserProfile,
   updateProfile,
 } from "firebase/auth";
 
@@ -84,7 +83,6 @@ export default function SignUp() {
     }
     history.push("/");
   };
-  const [user, setUser] = useState("");
   const [name, setName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");

@@ -9,7 +9,7 @@ import { Button, Input } from "@material-ui/core";
 
 function GetPhoneNumber() {
   return (
-    <Typography
+    <div
       style={{
         display: "flex",
         flexDirection: "row",
@@ -23,9 +23,9 @@ function GetPhoneNumber() {
       <Input type="email" placeholder="9717002522"></Input>
       <div>Course</div>
       <Input type="email" placeholder="B.Tech"></Input>
-      <Button variant="primary">Submit</Button>
+      <Button variant="outlined">Submit</Button>
       <ScrollToTop />
-    </Typography>
+    </div>
   );
 }
 
@@ -48,9 +48,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Footer(props) {
+export default function Footer() {
   const classes = useStyles();
-  const { description, title } = props;
 
   return (
     <footer className={classes.footer}>

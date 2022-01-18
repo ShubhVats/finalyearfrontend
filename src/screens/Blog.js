@@ -14,10 +14,6 @@ import Header from "../helpers/Header";
 import MainCarousel from "../helpers/MainCarousel";
 import Sidebar from "../helpers/Sidebar";
 
-import post1 from "../helpers/blog-post.1.md";
-import post2 from "../helpers/blog-post.2.md";
-import post3 from "../helpers/blog-post.3.md";
-
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(3),
@@ -118,8 +114,6 @@ const featuredPosts = [
     imageText: "Image Text",
   },
 ];
-
-const posts = [post1, post2, post3];
 
 const sidebar = {
   title: "About",
