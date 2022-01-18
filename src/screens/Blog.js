@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 const sections = [
   {
     title: "Top Universities",
-    url: "http://localhost:3000/UniversityData",
+    url: "https://carrerheadstartfrontend.herokuapp.com/UniversityData",
     date: "Nov 12",
     description:
       "Discover the top universities around the world with the World University Rankings 2022, or go in depth on a particular region with the QS World University Rankings by Region 2022.",
@@ -37,7 +37,7 @@ const sections = [
   },
   {
     title: "Top Courses",
-    url: "http://localhost:3000/TopCourses",
+    url: "https://carrerheadstartfrontend.herokuapp.com/TopCourses",
     date: "Nov 11",
     description:
       "Choosing the Right Course for the Career is the most crucial decision to make and can be troublesome if not guided properly. In the current scenario with so many available options for courses and tough competition, it is very hard and confusing to decide for both students and parents. With so many influential people around, we often get swayed or simply do what is told by our parents.",
@@ -47,7 +47,7 @@ const sections = [
   },
   {
     title: "Upcoming Exams",
-    url: "http://localhost:3000/Exams",
+    url: "https://carrerheadstartfrontend.herokuapp.com/Exams",
     date: "Nov 11",
     description:
       "Govt. Jobs: The number of Government job aspirants is increasing at an alarming rate in India. More and more aspirants are applying for Government job posts each year.",
@@ -57,7 +57,7 @@ const sections = [
   },
   {
     title: "Admission 2021",
-    url: "http://localhost:3000/UniversityData",
+    url: "https://carrerheadstartfrontend.herokuapp.com/UniversityData",
     date: "Nov 12",
     description:
       "Use our course matching tool to narrow down your study choices, or sign up for one of our worldwide in-person or virtual events and get the chance to meet representatives from the world's top universities.",
@@ -67,7 +67,7 @@ const sections = [
   },
   {
     title: "eLearning",
-    url: "http://localhost:3000/eLearning",
+    url: "https://carrerheadstartfrontend.herokuapp.com/eLearning",
     date: "Nov 11",
     description:
       "eLearning Learning is a collection of the leading industry thought leadership in the form of blogs, webinars, and downloadable resources, on one convenient website. We use reader data to auto-curate the articles, meaning that the most valuable resources move to the top. Additionally, you can sign up for our Daily or Weekly newsletters to receive these top-ranked articles right in your inbox, or you can sign up to be notified when new resources like webinars or ebooks are available.",
